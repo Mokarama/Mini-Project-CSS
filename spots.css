@@ -1,0 +1,49 @@
+.spots-container{
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+}
+
+.spots-text{
+    margin-left: 20px;
+
+}
+.spots-text h1{
+    
+    font-size: 32px;
+    line-height: 40px;
+    padding-bottom: 15px;
+}
+.spots-text p{
+    padding-bottom: 15px;
+   color: #2b2525b3;
+   font-size: 20px;
+}
+.spots-text img{
+  padding-bottom: 15px;
+}
+
+
+@media screen and (max-width: 576px){
+    .spots-container{
+        width: 100%;
+        flex-direction: column;
+        padding: 15px 20px;
+        
+    }
+    #china{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .spot-box-area{
+        width: 100%;
+    }
+    #spot-btn{
+       text-align: center;
+    }
+}

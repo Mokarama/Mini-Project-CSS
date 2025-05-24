@@ -6,7 +6,7 @@
 body{
     width: 80%;
     margin:0 auto;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(243, 239, 239);
 }
 .container{
    
@@ -20,7 +20,7 @@ body{
 }
 
 
-  /* media queary end */
+
 .text-container{
     padding:0px 40px;
     align-content: center;
